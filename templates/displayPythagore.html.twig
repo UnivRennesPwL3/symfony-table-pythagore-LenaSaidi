@@ -1,4 +1,10 @@
 {% extends 'base.html.twig' %}
 
-{% block content %} {{ htmlResponse }} {% endblock %}
+{% block title %}
+    Symfony & table de Pythagore
+{% endblock %}
 
+{% block content %}
+    <h1>Léna SAIDI</h1>
+    {{ table | raw }} 
+{% endblock %}
